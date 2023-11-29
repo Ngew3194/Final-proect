@@ -63,15 +63,20 @@ def play_tic_tac_toe():
     current_player = "X"
 
     while True:
+        print("Current Board:")
         print_board(board)
+        print()
 
         if current_player == "X":
             row = int(input("Enter the row (0-3): "))
             col = int(input("Enter the column (0-3): "))
             if board[row][col] == " ":
                 board[row][col] = current_player
+                print("Player X's Move:")
+                print_board(board)
+                print()
                 if is_winner(board, current_player):
-                    print("Congratulations! You win!")
+                    print("Congratulations! Player X wins!")
                     break
                 elif is_board_full(board):
                     print("It's a tie!")
@@ -80,9 +85,11 @@ def play_tic_tac_toe():
             else:
                 print("Invalid move. Try again.")
         else:
-            
             row, col = get_computer_move(board)
             board[row][col] = current_player
+            print("Computer's Move (O):")
+            print_board(board)
+            print()
             if is_winner(board, current_player):
                 print("Computer wins!")
                 break
