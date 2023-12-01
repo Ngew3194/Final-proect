@@ -1,8 +1,7 @@
-When I was thinking of what kind of project I wanted to do, I was thinking of doing something easy since i'm still a beginner at coding. At first first I was thinking of create a prgram that will help you dress get dressed for any occasion, for example: "the computer will ask what's the occasion of your event?" you input " date night or cocktail" the comouter will ask you " What are you thinking of wearing?" you input " a dress or jumpsuit" the computer will ask "what color?" you input "black ang gold" and based on that the computer will tell you what kind/color of shoes you should wear, what color coat you should put on, it sounds complicated so i went with tic tac toe. At a young age I loved playing tic tac toe, I was unbeatable. It was harder than what I thought, creating the board, a function that will play was really tough. 
+While I was thinking about what project I wanted to do, I wanted something simple, beginner at coding friendly and fun all at once.
 
+The program creates a 4x4 tic tac toe board, check for a winner, check for a tie, get player's moves, get the machine's moves, after each turns the program will print out the board of the turn including all the moves made previously, it will play the game, and at the end the game the program will print the final board including all the moves made. 
 
-My project, my project is a game of tic tac toe against the computer.
-    * I created a function that will first draw me a 4x4 board, at first I wanted a 3x3 but went with the 4x4 to make it just a little bit challenging
-    * I assigned X to the player and O to the machine
-    * Each column and rows goes from 0-3 
-    * the machine 
+My final project program is straightforward, and any beginners at coding can have easy understanding of the functions. The code is organized into seperate functions which makes it easier to make changes, or maintain. 
+
+What's interesting about my final project is the performance of the board definition. The code can be easily modified(change the size of the board), the code shows how easy, flexible, and adaptable it is. With this code it is able to create a tic tac toe board of different sizes. The flexiblity expands more possibilities, challenges, and creating new strategies. This code encourages creativity, and customizations making it more engaging for other playing as well.
